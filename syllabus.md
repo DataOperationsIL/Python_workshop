@@ -50,7 +50,7 @@ Welcome! This 12-week workshop is designed to take data-savvy professionals who 
 | **1** | Setup, primitive data types | [Hello Python](https://www.kaggle.com/code/colinmorris/hello-python) <br> [Python Primitive Data Types](https://pieriantraining.com/python-primitive-data-types-a-comprehensive-tutorial/) |
 | **2** | Lists, tuples, sets, dicts & comprehensions, Loo[s |[Lists](https://www.kaggle.com/code/colinmorris/lists) <br> [Loops & List Comprehensions](https://www.kaggle.com/code/colinmorris/loops-and-list-comprehensions) <br>[Strings & Dictionaries](https://www.kaggle.com/code/colinmorris/strings-and-dictionaries)  |
 | **3** | Functions & conditionals | [Functions & Getting Help](https://www.kaggle.com/code/colinmorris/functions-and-getting-help) <br>[Booleans & Conditionals](https://www.kaggle.com/code/colinmorris/booleans-and-conditionals) |
-| **4** | External libraries, intro to pandas | [Working with External Libraries](https://www.kaggle.com/code/colinmorris/working-with-external-libraries) <br>[Creating/Reading/Writing](https://www.kaggle.com/code/residentmario/creating-reading-and-writing)” |
+| **4** | External libraries, intro to pandas | [Working with External Libraries](https://www.kaggle.com/code/colinmorris/working-with-external-libraries) <br>[Creating/Reading/Writing](https://www.kaggle.com/code/residentmario/creating-reading-and-writing) |
 | **5** | Indexing, selecting, grouping | [Indexing, Selecting, Assigning](https://www.kaggle.com/code/residentmario/indexing-selecting-assigning) <br>[Summary Functions & Maps](https://www.kaggle.com/code/residentmario/summary-functions-and-maps) <br>[Grouping & Sorting](https://www.kaggle.com/code/residentmario/grouping-and-sorting) |
 | **6** | Data types, missing values, merging | [Data Types & Missing Values](https://www.kaggle.com/code/residentmario/data-types-and-missing-values) <br>[Renaming & Combining](https://www.kaggle.com/code/residentmario/renaming-and-combining) <br>*Optional mini-course*: [Data Cleaning](https://www.kaggle.com/learn/data-cleaning) |
 | **7** | Jupyter deep-dive; connect Python ↔ SQL; project kickoff | **Project Part 1** – review-selection script |
@@ -68,7 +68,6 @@ Welcome! This 12-week workshop is designed to take data-savvy professionals who 
 2. **Part 2** – Produce a data-overview report (tables + charts)  
 3. **Part 3** – Flag bad label rows; output QA CSV  
 4. **Part 4** – Auto-label *brand* & *sentiment* with Ollama, evaluate with precision/recall/F1  
-5. **(Bonus)** – Compare LLM vs. human labels, analyze error cases  
 
 ---
 
