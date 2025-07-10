@@ -30,8 +30,8 @@ Welcome! This 12-week workshop is designed to take data-savvy professionals who 
 |------|------|
 | **Live Session** | **Thursdays, 15:00 – 16:00** (Zoom) |
 | **Self-study** | ~2-4 h/week on Kaggle lessons or project tasks |
-| **Platform** | Kaggle Notebooks for tutorials; VS Code + Jupyter for project |
-| **Database** | Azure SQL demo DB (access provided in Week 7) |
+| **Platform** | Kaggle Notebooks or [Online Python Interpreter](https://www.online-python.com/) for tutorials; Jupyter Notebooks for project |
+| **Database** | Azure SQL demo DB |
 
 ---
 
@@ -47,8 +47,8 @@ Welcome! This 12-week workshop is designed to take data-savvy professionals who 
 
 | Week | Topics (Live) | Self-Paced Homework (Linked) |
 |------|---------------|------------------------------|
-| **1** | Setup, primitive data types | • Kaggle “[Hello Python](https://www.kaggle.com/code/colinmorris/hello-python)” |
-| **2** | Lists, tuples, sets, dicts & comprehensions | • “[Loops & List Comprehensions](https://www.kaggle.com/code/colinmorris/loops-and-list-comprehensions)” <br>• “[Strings & Dictionaries](https://www.kaggle.com/code/colinmorris/strings-and-dictionaries)” |
+| **1** | Setup, primitive data types | •  “[Hello Python](https://www.kaggle.com/code/colinmorris/hello-python)” <br> •  “[Python Primitive Data Types](https://pieriantraining.com/python-primitive-data-types-a-comprehensive-tutorial/)” |
+| **2** | Lists, tuples, sets, dicts & comprehensions, Loo[s | • “[Loops & List Comprehensions](https://www.kaggle.com/code/colinmorris/loops-and-list-comprehensions)” <br>• “[Strings & Dictionaries](https://www.kaggle.com/code/colinmorris/strings-and-dictionaries)”  |
 | **3** | Functions & conditionals | • “[Functions & Getting Help](https://www.kaggle.com/code/colinmorris/functions-and-getting-help)” <br>• “[Booleans & Conditionals](https://www.kaggle.com/code/colinmorris/booleans-and-conditionals)” |
 | **4** | External libraries, intro to pandas | • “[Working with External Libraries](https://www.kaggle.com/code/colinmorris/working-with-external-libraries)” <br>• “[Creating/Reading/Writing](https://www.kaggle.com/code/residentmario/creating-reading-and-writing)” |
 | **5** | Indexing, selecting, grouping | • “[Indexing, Selecting, Assigning](https://www.kaggle.com/code/residentmario/indexing-selecting-assigning)” <br>• “[Summary Functions & Maps](https://www.kaggle.com/code/residentmario/summary-functions-and-maps)” <br>• “[Grouping & Sorting](https://www.kaggle.com/code/residentmario/grouping-and-sorting)” |
