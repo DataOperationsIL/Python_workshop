@@ -35,3 +35,36 @@ Open the **Terminal** and run:
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
+
+
+# 🦙 Installing **Ollama** and Downloading **TinyLlama**
+
+This guide shows how to install **Ollama**—a local LLM runtime—for macOS, Windows, and Linux, and how to download the **TinyLlama** model. Follow the steps for **your** operating system.
+
+> **TinyLlama** is a 1.1 B-parameter model that runs comfortably on most modern laptops (≈ 4 GB VRAM or 8 GB system RAM).
+
+---
+
+## 1. Prerequisites
+
+| Requirement | Notes |
+|-------------|-------|
+| **Disk space** | ~6 GB free (Ollama binaries + TinyLlama model) |
+| **CPU / GPU** | Any recent x86-64 or Apple Silicon CPU. GPU optional but improves speed. |
+| **OS** | macOS 12+, Windows 10/11 (64-bit), Ubuntu 20.04+ (or compatible) |
+
+---
+
+## 2. Install Ollama
+
+### 2.1 macOS (Intel & Apple Silicon)
+
+```bash
+# Homebrew (recommended)
+brew install ollama
+
+# or download the .dmg installer
+open https://ollama.com/download/Ollama.dmg
+
