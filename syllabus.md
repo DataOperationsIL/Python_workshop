@@ -45,16 +45,16 @@ Welcome! This 12-week workshop is designed to take data-savvy professionals who 
 
 ## 📆 Weekly Roadmap
 
-| Week | Topics (Live) | Self-Paced Homework |
-|------|---------------|---------------------|
-| **1** | Setup, intro to Python | Kaggle “Hello Python” |
-| **2** | Lists, tuples, sets, dicts & comprehensions | Kaggle “Loops & List Comprehensions”, “Strings & Dictionaries” |
-| **3** | Functions & conditionals | Kaggle “Functions & Getting Help”, “Booleans & Conditionals” |
-| **4** | External libraries, intro to pandas | Kaggle “Working with External Libraries”, “Creating / Reading / Writing” |
-| **5** | Indexing, selecting, grouping | Kaggle “Indexing, Selecting, Assigning”; “Summary Functions & Maps”; “Grouping & Sorting” |
-| **6** | Data types, missing values, merging | Kaggle “Data Types & Missing Values”, “Renaming & Combining” <br>*(opt.)* Kaggle **Data Cleaning** mini-course |
-| **7** | Jupyter deep-dive; connect Python ↔ SQL; project kickoff | Start **Project Part 1** – review selection script |
-| **8** | Visualization basics; HTML reports; QA checks | **Project Parts 2–3** – data report, quality-flag script <br>*(opt.)* Kaggle **Data Visualization** |
+| Week | Topics (Live) | Self-Paced Homework (Linked) |
+|------|---------------|------------------------------|
+| **1** | Setup, primitive data types | • Kaggle “[Hello Python](https://www.kaggle.com/code/colinmorris/hello-python)” |
+| **2** | Lists, tuples, sets, dicts & comprehensions | • “[Loops & List Comprehensions](https://www.kaggle.com/code/colinmorris/loops-and-list-comprehensions)” <br>• “[Strings & Dictionaries](https://www.kaggle.com/code/colinmorris/strings-and-dictionaries)” |
+| **3** | Functions & conditionals | • “[Functions & Getting Help](https://www.kaggle.com/code/colinmorris/functions-and-getting-help)” <br>• “[Booleans & Conditionals](https://www.kaggle.com/code/colinmorris/booleans-and-conditionals)” |
+| **4** | External libraries, intro to pandas | • “[Working with External Libraries](https://www.kaggle.com/code/colinmorris/working-with-external-libraries)” <br>• “[Creating/Reading/Writing](https://www.kaggle.com/code/residentmario/creating-reading-and-writing)” |
+| **5** | Indexing, selecting, grouping | • “[Indexing, Selecting, Assigning](https://www.kaggle.com/code/residentmario/indexing-selecting-assigning)” <br>• “[Summary Functions & Maps](https://www.kaggle.com/code/residentmario/summary-functions-and-maps)” <br>• “[Grouping & Sorting](https://www.kaggle.com/code/residentmario/grouping-and-sorting)” |
+| **6** | Data types, missing values, merging | • “[Data Types & Missing Values](https://www.kaggle.com/code/residentmario/data-types-and-missing-values)” <br>• “[Renaming & Combining](https://www.kaggle.com/code/residentmario/renaming-and-combining)” <br>*Optional mini-course*: [Data Cleaning](https://www.kaggle.com/learn/data-cleaning) |
+| **7** | Jupyter deep-dive; connect Python ↔ SQL; project kickoff | **Project Part 1** – review-selection script |
+| **8** | Visualization basics; HTML reports; QA checks | **Project Parts 2–3** – data report, quality-flag script <br>*Optional*: [Data Visualization](https://www.kaggle.com/learn/data-visualization) |
 | **9** | LLM labeling with Ollama | **Project Part 4** – auto-label & evaluation |
 | **10** | Project workshop (Q&A) | Continue project – bring blockers |
 | **11** | Project workshop (Q&A) | Continue project |
