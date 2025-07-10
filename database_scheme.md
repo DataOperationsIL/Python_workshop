@@ -72,10 +72,8 @@ This document describes the structure of the SQL tables used in the final projec
 - `battery_life_mentioned`  
 - `toxic_language`  
 - `fake_sounding`  
-- `dangrous_content`  
+- `dangerous_content`  
 - `review_id`  
-
-> ⚠️ Note: There is a typo in the column name `dangrous_content`. You may want to correct it to `dangerous_content` for clarity and consistency.
 
 ---
 
