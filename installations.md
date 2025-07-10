@@ -31,10 +31,7 @@ Download and install from the official Microsoft documentation:
 
 #### Step 1: Install Homebrew (if not already installed)
 
-Open the **Terminal** and run:
 
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 
 
