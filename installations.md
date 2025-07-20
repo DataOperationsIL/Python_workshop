@@ -94,6 +94,36 @@ You should see something like:
 
 
 
+## Test Connection to Database in Python:
+Run this code in Jupyter Notebook:
+      import pyodbc
+      
+      server = 'dataoperationsil.database.windows.net'   # no https
+      database = 'python_workshop'
+      username = 'workshop_user'
+      password = 'StrongPassword123!'
+      driver = '{ODBC Driver 18 for SQL Server}'
+      
+      connection_string = f'''
+          DRIVER={driver};
+          SERVER={server};
+          DATABASE={database};
+          UID={username};
+          PWD={password};
+          Encrypt=yes;
+          TrustServerCertificate=no;
+          Connection Timeout=30;
+      '''
+
+conn = pyodbc.connect(connection_string)
+cursor = conn.cursor()
+
+pd.read_sql("SELECT * FROM transactions", con=engine)
+
+
+
+
+
 ## 🦙 Installing **Ollama** and Downloading **TinyLlama**
 
 This guide shows how to install **Ollama**—a local LLM runtime—for macOS, Windows, and Linux, and how to download the **TinyLlama** model. Follow the steps for **your** operating system.
