@@ -20,7 +20,7 @@ By the end of this project, you’ll have experience in:
 ---
 
 ## 🧩 Your Tasks
-Break your work into five main steps. Each step should be a Python script/Jupyter notebook, which you should be able to explain:
+Break your work into 4 main steps. Each step should be a Python script/Jupyter notebook, which you should be able to explain:
 
 1. Select rows for labeling  
 2. Create a report  
@@ -30,9 +30,9 @@ Break your work into five main steps. Each step should be a Python script/Jupyte
 ---
 
 ## 🛒 Scenario: Cellphones & Customer Reviews
-You are working as part of a data operations team at a fictional e-commerce site that sells cellphones. You have access to three tables:
+You are working as part of a data operations team at a fictional e-commerce site that sells cellphones. You have access to a database ([database schema](https://github.com/DataOperationsIL/Python_workshop/blob/main/database_scheme.md)  ):
 
-- `products`: cellphone catalog data – [database schema](https://github.com/DataOperationsIL/Python_workshop/blob/main/database_scheme.md)  
+- `products`: cellphone catalog data 
 - `transactions`: purchases of those phones  
 - `reviews`: customer-written reviews of those products  
 
