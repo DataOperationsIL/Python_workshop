@@ -151,7 +151,7 @@ In this task, you’ll:
 - `sentiment`: positive / negative  
 
 #### 📥 Input
-Ground Truth File  
+[Ground Truth File [(https://docs.google.com/spreadsheets/d/1o86E--hF70L-CQPjJDI-2eAw2t-YApk4NUGVK2u7B-s/edit?gid=1326150701#gid=1326150701) 
 
 #### 🛠 Your Script Should:
 - Load the file using `pandas`  
