@@ -8,7 +8,7 @@ This guide will help you install the required tools and configure your environme
 
 Install the full [Anaconda distribution](https://www.anaconda.com/download/success) (not Miniconda).
 
-### 🖥️ How to Check if You Have an Intel or Apple Silicon Mac
+### 🖥️ How to Check if You Have an Intel or Apple Silicon Mac for macOS installation
 
 1. Click the Apple  menu in the top-left corner.  
 2. Select **"About This Mac"**.  
