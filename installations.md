@@ -71,7 +71,7 @@ You should see something like:
 
    - **Server**: `dataoperationsil.database.windows.net`  
    - **User**: `workshop_user`  
-   - **Password**: `StrongPassword123!`
+   - **Password**: `YourStrongPassword123`
 
 ---
 
@@ -88,7 +88,7 @@ You should see something like:
    - **Database**: `python_workshop`  
    - **Authentication Type**: `SQL Login`  
    - **User name**: `workshop_user`  
-   - **Password**: `StrongPassword123!`
+   - **Password**: `YourStrongPassword123`
 
 4. Click **"Connect"** – and start querying.
 
@@ -118,7 +118,7 @@ Run this code in Jupyter Notebook:
       conn = pyodbc.connect(connection_string)
       cursor = conn.cursor()
       
-      pd.read_sql("SELECT * FROM transactions", con=engine)
+      pd.read_sql("SELECT * FROM employees", con=engine)
    
 
 
