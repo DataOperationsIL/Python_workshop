@@ -43,7 +43,7 @@ This document describes the structure of the SQL tables used in the final projec
 
 **Columns**:
 - `product_id` – Foreign key to `products`  
-- `review`  
+- `review_text`  
 - `review_id` – Primary key  
 - `user_id`  
 - `location`  
