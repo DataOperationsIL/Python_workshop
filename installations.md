@@ -157,3 +157,11 @@ Launch Ollama and keep it running in the background
 
 2. Download the TinyLlama model -
    Once ollama is installed run this is the Terminal: ollama run tinyllama
+
+
+
+
+draft for continuation:
+install DB for SQLite:
+https://sqlitebrowser.org/dl/
+Load .db file there
