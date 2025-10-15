@@ -18,108 +18,15 @@ Install the full [Anaconda distribution](https://www.anaconda.com/download/succe
 
 ---
 
-## 🔌 SQL ODBC Driver 18
-
-### 🪟 Windows
-
-Download and install from the official Microsoft documentation:  
-➡️ [ODBC Driver 18 for SQL Server – Windows](https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver17)
-
----
-
-### 🍎 macOS
-
-#### Step 1: Install Homebrew (if not already installed)
-
-Open the Terminal app.
-Run this command and press Enter:
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-Follow the on-screen instructions.
-
-To verify that Homebrew installed correctly, run:
-brew --version
-
-#### Step 2: Add the Microsoft SQL Server repository
-In the Terminal, run the following commands:
-
-brew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release
- brew update
-
-#### Step 3: Install the ODBC Driver 18 for SQL Server
-Run the following command:
-brew install --no-quarantine msodbcsql18
-Note: The --no-quarantine flag is used to avoid macOS security restrictions that can block the driver.
-
-#### Step 4: (Optional) Install unixODBC tools
-If you want to use tools like odbcinst to inspect installed drivers, run:
-brew install unixodbc
-
-#### Step 5: Verify that the driver was installed
-To list installed ODBC drivers, run:
-odbcinst -q -d
-You should see something like:
-[ODBC Driver 18 for SQL Server]
-
-## 🗃️ Installing SQL Server
-
-### 🪟 For Windows
-
-1. Download and install SQL Server Management Studio (SSMS):  
-   [https://aka.ms/ssmsfullsetup](https://aka.ms/ssmsfullsetup)
-
-2. Use the following connection details:
-
-   - **Server**: `dataoperationsil.database.windows.net`  
-   - **User**: `workshop_user`  
-   - **Password**: `YourStrongPassword123`
-
----
-
-### 🍎 For Mac
-
-1. Install **Azure Data Studio**:  
-   [Download Azure Data Studio](https://learn.microsoft.com/en-us/sql/azure-data-studio/download)
-
-2. Open Azure Data Studio and click **"New Connection"**.
-
-3. Fill in the connection details:
-
-   - **Server**: `dataoperationsil.database.windows.net`  
-   - **Database**: `python_workshop`  
-   - **Authentication Type**: `SQL Login`  
-   - **User name**: `workshop_user`  
-   - **Password**: `YourStrongPassword123`
-
-4. Click **"Connect"** – and start querying.
+## 🔌 DB Browser for SQLite
+Install [DB Browser for SQLite](https://sqlitebrowser.org/dl/)
+Download workshop_db file
+Open DB Browser ffor SQLite:
+1. "Open Database" and load the file
+2. Check Database Structure tab has all the tables
+3. Go to "Execute SQL" tab and run - select * from products limit 10
 
 
-
-## Test Connection to Database in Python:
-Run this code in Jupyter Notebook:
-      import pyodbc
-      
-      server = 'dataoperationsil.database.windows.net'   # no https
-      database = 'python_workshop'
-      username = 'workshop_user'
-      password = 'StrongPassword123!'
-      driver = '{ODBC Driver 18 for SQL Server}'
-      
-      connection_string = f'''
-          DRIVER={driver};
-          SERVER={server};
-          DATABASE={database};
-          UID={username};
-          PWD={password};
-          Encrypt=yes;
-          TrustServerCertificate=no;
-          Connection Timeout=30;
-      '''
-      
-      conn = pyodbc.connect(connection_string)
-      cursor = conn.cursor()
-      
-      pd.read_sql("SELECT * FROM employees", con=engine)
-   
 
 
 
@@ -161,7 +68,4 @@ Launch Ollama and keep it running in the background
 
 
 
-draft for continuation:
-install DB for SQLite:
-https://sqlitebrowser.org/dl/
-Load .db file there
+
