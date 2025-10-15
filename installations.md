@@ -20,10 +20,12 @@ Install the full [Anaconda distribution](https://www.anaconda.com/download/succe
 
 ## 🔌 DB Browser for SQLite
 Install [DB Browser for SQLite](https://sqlitebrowser.org/dl/)
-Download workshop_db file
-Open DB Browser ffor SQLite:
+
+Download [workshop_db file](https://github.com/DataOperationsIL/Python_workshop/blob/main/workshop_db.db)
+
+Open DB Browser for SQLite:
 1. "Open Database" and load the file
-2. Check Database Structure tab has all the tables
+2. Check "Database Structure" tab has all the tables
 3. Go to "Execute SQL" tab and run - select * from products limit 10
 
 
